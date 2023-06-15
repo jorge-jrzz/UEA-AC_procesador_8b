@@ -1,0 +1,42 @@
+$date
+  Wed Jun 14 11:49:32 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 8 ! a[7:0] $end
+$var reg 8 " b[7:0] $end
+$var reg 8 # c[7:0] $end
+$var reg 8 $ d[7:0] $end
+$var reg 2 % s[1:0] $end
+$scope module r0 $end
+$var reg 8 & in1[7:0] $end
+$var reg 8 ' in2[7:0] $end
+$var reg 8 ( in3[7:0] $end
+$var reg 8 ) in4[7:0] $end
+$var reg 2 * ctrl[1:0] $end
+$var reg 8 + r[7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b01010101 !
+b11100011 "
+b01010101 #
+b11100011 $
+b00 %
+b01010101 &
+b11100011 '
+b01010101 (
+b11100011 )
+b00 *
+b01010101 +
+#5000000
+b01 %
+b01 *
+b11100011 +
+#10000000
+b11 %
+b11 *

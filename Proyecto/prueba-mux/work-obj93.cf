@@ -1,0 +1,7 @@
+v 3
+file . "Mux4a1_tb.vhd" "20230614174808.000" "20230614114811.577":
+  entity mux4a1_tb at 2( 21) + 0 on 13;
+  architecture ar_mux4a1_tb of mux4a1_tb at 8( 110) + 1 on 14;
+file . "Mux4a1.vhd" "20230614165724.000" "20230614114656.728":
+  entity mux4a1 at 1( 0) + 0 on 11;
+  architecture mux of mux4a1 at 13( 282) + 0 on 12;
