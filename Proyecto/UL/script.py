@@ -34,7 +34,7 @@ if os.name == "posix" or os.name == "mac":
     # print(f"{RUTA_JORGE} -s {archivo}.vhd")
 elif os.name == "ce" or os.name == "nt" or os.name == "dos":
 
-    who = input("¿Quien eres? (R/L ")
+    who = input("¿Quien eres? (R/L) ")
     if who == 'R':
         while opcion != '6':
             if opcion == '1':

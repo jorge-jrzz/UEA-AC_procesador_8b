@@ -31,8 +31,8 @@ architecture Ar_UnidadLogica of UnidadLogica is
    
     andM <= A and B;
     orM <= A or B;
-    notM <= not A;
-    notB <= not B;
+    notA <= not(A);
+    notB <= not(B);
     xorM <= A xor B;
     norM <= A nor B;
     nandM <= A nand B;
