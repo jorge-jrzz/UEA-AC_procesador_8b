@@ -1,7 +1,7 @@
 import os
 
 # Ruta del compilador
-RUTA_JORGE = "/Users/jorge/Desktop/VHDL/ghdl-compiler/bin/ghdl"
+RUTA_JORGE = "/Users/jorge/ghdl-compiler/bin/ghdl"
 RUTA_LEO = ""
 RUTA_RO = ""
 
