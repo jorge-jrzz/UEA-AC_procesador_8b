@@ -1,9 +1,9 @@
 import os
 
 # Ruta del compilador
-RUTA_JORGE = "/Users/jorge/ghdl-compiler/bin/ghdl"
-RUTA_LEO = "D:\\Ghdl\\bin\\ghdl.exe"
-RUTA_RO = ""
+RUTA_JORGE = "ruta del comilador (ghdl)"
+RUTA_LEO = "ruta del comilador (ghdl)"
+RUTA_RO = "ruta del comilador (ghdl)"
 
 archivo = input("Ingresa el nombre del del archivo (sin extencion): ")
 
