@@ -9,8 +9,8 @@ use IEEE.std_logic_1164.all;
          r, cout: out std_logic);
  end FA;
  
- architecture Ar_FA of FA is
+ architecture arch of FA is
  begin
    cout <= (a and cin) or (a and b) or (b and cin);
    r <= (a xor (b xor cin));
- end Ar_FA;
+ end arch;
