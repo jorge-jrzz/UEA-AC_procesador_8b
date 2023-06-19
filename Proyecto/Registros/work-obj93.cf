@@ -1,0 +1,13 @@
+v 3
+file . "Registro8b.vhd" "20230619161156.000" "20230619115227.519":
+  entity registro8b at 1( 0) + 0 on 15;
+  architecture funcion of registro8b at 11( 226) + 0 on 16;
+file . "FFD.vhd" "20230619161156.000" "20230619115132.009":
+  entity ffd at 1( 0) + 0 on 11;
+  architecture funcional of ffd at 8( 142) + 4 on 12;
+file . "Bloque8R_tb.vhd" "20230619161150.000" "20230619115247.025":
+  entity bloque8r_tb at 1( 0) + 0 on 19;
+  architecture ar_bloquer of bloque8r_tb at 8( 85) + 0 on 20;
+file . "Demux1a8.vhd" "20230619161154.000" "20230619115236.637":
+  entity demux1a8 at 1( 0) + 0 on 17;
+  architecture funcion of demux1a8 at 12( 252) + 2 on 18;

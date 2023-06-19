@@ -21,10 +21,10 @@ use IEEE.std_logic_1164.all;
  signal s: std_logic_vector(1 downto 0);
 
  begin 
-   a <= "01010101";
-   b <= "11100011";
-   c <= "01010101";
-   d <= "11100011";
+   a <= "10110010"; 
+   b <= "11111101";
+   c <= "10101000";
+   d <= "01011100";
    r0: Mux4a1 port map (a, b, c, d, s);
    s <= "00" after 0 ns, "01" after 5 ns, "11" after 10 ns;
  end Ar_Mux4a1_tb;   
