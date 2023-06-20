@@ -1,5 +1,5 @@
 $date
-  Sun Jun 18 14:24:27 2023
+  Mon Jun 19 20:57:48 2023
 $end
 $version
   GHDL v0
@@ -7,17 +7,12 @@ $end
 $timescale
   1 fs
 $end
-$scope module standard $end
-$upscope $end
-$scope module std_logic_1164 $end
-$upscope $end
-$scope module sumador8bits_tb $end
-$var reg 8 ! a_tb[7:0] $end
-$var reg 8 " b_tb[7:0] $end
-$var reg 1 # cin_tb $end
-$var reg 8 $ r_tb[7:0] $end
-$var reg 1 % cout_tb $end
-$var reg 1 & v_tb $end
+$var reg 8 ! a_x[7:0] $end
+$var reg 8 " b_x[7:0] $end
+$var reg 1 # cin_x $end
+$var reg 8 $ r_x[7:0] $end
+$var reg 1 % cout_x $end
+$var reg 1 & v_x $end
 $scope module test $end
 $var reg 8 ' a[7:0] $end
 $var reg 8 ( b[7:0] $end
@@ -84,52 +79,51 @@ $var reg 1 U r $end
 $var reg 1 V cout $end
 $upscope $end
 $upscope $end
-$upscope $end
 $enddefinitions $end
 #0
-b00000000 !
-b10010011 "
+b00000111 !
+b10011111 "
 0#
-b10010011 $
+b10100110 $
 0%
 0&
-b00000000 '
-b10010011 (
+b00000111 '
+b10011111 (
 0)
-b10010011 *
+b10100110 *
 0+
 0,
-b0000000 -
+b0011111 -
 0.
-0/
+1/
 10
 01
-12
-03
-04
+02
+13
+14
 15
-06
+16
 17
-08
-09
-0:
-0;
-0<
-0=
+18
+19
+1:
+1;
+1<
+1=
 0>
-0?
-0@
+1?
+1@
 0A
-0B
+1B
 0C
 1D
-0E
-1F
-0G
+1E
+0F
+1G
 0H
 0I
-0J
-0K
+1J
+1K
 0L
 0M
 0N
@@ -156,30 +150,13 @@ b00001111 *
 0,
 b1111111 -
 1.
-1/
 11
-13
-14
-16
-17
-18
-19
-1:
-1;
-1<
-1=
+12
 1>
-1?
-1@
 1A
-1B
 1C
 0D
-1E
-0F
-1G
 1H
-1J
 0K
 1L
 1M
@@ -344,89 +321,3 @@ b0011111 -
 0R
 1S
 #60000000
-b10101010 !
-b10101010 "
-0#
-b01010100 $
-1%
-1&
-b10101010 '
-b10101010 (
-0)
-b01010100 *
-1+
-1,
-b0101010 -
-1.
-00
-01
-03
-06
-07
-09
-1<
-0=
-1?
-0@
-0A
-0D
-1F
-0G
-1H
-1I
-0J
-0K
-1L
-0M
-1O
-1P
-1R
-0U
-1V
-#70000000
-b11110000 !
-b00001111 "
-1#
-b00000000 $
-1%
-0&
-b11110000 '
-b00001111 (
-1)
-b00000000 *
-1+
-0,
-b1111111 -
-1.
-10
-11
-13
-04
-16
-07
-18
-1:
-1;
-0<
-1=
-0>
-1@
-0A
-1B
-1C
-1E
-0F
-1G
-0I
-1J
-0K
-1L
-1M
-1O
-0P
-1Q
-0S
-1T
-0U
-1V
-#80000000

@@ -15,66 +15,50 @@ architecture arch of Sumador8Bits_tb is
         );
     end component;
 
-    signal A_tb: std_logic_vector(7 downto 0);
-    signal B_tb: std_logic_vector(7 downto 0);
-    signal cin_tb: std_logic;
-    signal R_tb: std_logic_vector(7 downto 0);
-    signal cout_tb: std_logic;
-    signal v_tb: std_logic;
+    signal A_X: std_logic_vector(7 downto 0);
+    signal B_X: std_logic_vector(7 downto 0);
+    signal cin_X: std_logic;
+    signal R_X: std_logic_vector(7 downto 0);
+    signal cout_X: std_logic;
+    signal v_X: std_logic;
 
 begin
-    test: Sumador8Bits port map (A => A_tb, B => B_tb, cin => cin_tb, R => R_tb, cout => cout_tb, v => v_tb);
+    test: Sumador8Bits port map (A => A_X, B => B_X, cin => cin_X, R => R_X, cout => cout_X, v => v_X);
   
     -- Proceso de estímulo
     process
     begin
-        -- Valores de entrada de prueba
-        A_tb <= "00000000";
-        B_tb <= "10010011";
-        cin_tb <= '0';
+
+        A_X <= "00000111";
+        B_X<= "10011111";
+        cin_X <= '0';
         wait for 10 ns;
 
-        -- Valores de entrada de prueba
-        A_tb <= "11111111";
-        B_tb <= "00001111";
-        cin_tb <= '1';
+        A_X <= "11111111";
+        B_X <= "00001111";
+        cin_X <= '1';
         wait for 10 ns;
 
-        -- Valores de entrada de prueba
-        A_tb <= "01010101";
-        B_tb <= "10101010";
-        cin_tb <= '0';
+        A_X <= "01010101";
+        B_X <= "10101010";
+        cin_X <= '0';
         wait for 10 ns;
 
-        -- Valores de entrada de prueba
-        A_tb <= "00110011";
-        B_tb <= "11001100";
-        cin_tb <= '1';
+        A_X<= "00110011";
+        B_X<= "11001100";
+        cin_X <= '1';
         wait for 10 ns;
 
-        -- Valores de entrada de prueba
-        A_tb <= "10010011";
-        B_tb <= "01001110";
-        cin_tb <= '0';
+        A_X <= "10010011";
+        B_X <= "01001110";
+        cin_X <= '0';
         wait for 10 ns;
 
-        -- Valores de entrada de prueba
-        A_tb <= "01001110";
-        B_tb <= "10010011";
-        cin_tb <= '1';
+        A_X <= "01001110";
+        B_X <= "10010011";
+        cin_X <= '1';
         wait for 10 ns;
 
-        -- Valores de entrada de prueba
-        A_tb <= "10101010";
-        B_tb <= "10101010";
-        cin_tb <= '0';
-        wait for 10 ns;
-
-        -- Valores de entrada de prueba
-        A_tb <= "11110000";
-        B_tb <= "00001111";
-        cin_tb <= '1';
-        wait for 10 ns;
 
         wait;
     end process;

@@ -1,13 +1,9 @@
---Sumador de 8 bits empleando FA y HA
---El sumador posee bit de acarreo de entrada y salida
 
 library IEEE;
 use IEEE.std_logic_1164.all;
 
 
  entity Sumador8Bits is
-   --A y B entradas de 8 bits, cin entrada de un bit.
-   --R y cout salida de 8 bits y acarreo de salida.
    port (A, B: in std_logic_vector (7 downto 0);
          cin: in std_logic;
          R: out std_logic_vector (7 downto 0); 
@@ -15,7 +11,7 @@ use IEEE.std_logic_1164.all;
          v: out std_logic);
  end Sumador8Bits;
  
- architecture Ar_Sumador8Bits of Sumador8Bits is
+ architecture archSumador of Sumador8Bits is
    component FA
      port (a, b, cin: in std_logic;
            r, cout: out std_logic);
@@ -23,6 +19,7 @@ use IEEE.std_logic_1164.all;
 
  signal C : std_logic_vector (6 downto 0);
  signal w : std_logic;
+
  begin
    Sumador0: FA port map (A(0), B(0), cin, R(0), C(0)); 
    Sumador1: FA port map (A(1), B(1), C(0), R(1), C(1)); 
@@ -34,7 +31,7 @@ use IEEE.std_logic_1164.all;
    Sumador7: FA port map (A(7), B(7), C(6), R(7), cout => w); 
    cout <= w;
    v <= w xor C(6);
- end Ar_Sumador8Bits;
+ end archSumador;
  
  
  
