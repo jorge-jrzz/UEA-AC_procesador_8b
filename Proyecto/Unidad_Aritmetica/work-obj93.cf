@@ -1,0 +1,49 @@
+v 4
+file . "SumadorRestador8Bits_tb.vhd" "db7e6b3d558f841e3ce1124ab171de7b4b72a5c7" "20230618223818.614":
+  entity sumadorrestador8bits_tb at 1( 0) + 0 on 77;
+  architecture ar_sumadorrestador8bits of sumadorrestador8bits_tb at 7( 117) + 1 on 78;
+file . "Unidad_Aritmetica_tb.vhd" "1b4617379be2efdada30b0bacc35e3b04ac588e2" "20230619002630.854":
+  entity unidad_aritmetica_tb at 1( 0) + 0 on 89;
+  architecture arch of unidad_aritmetica_tb at 7( 115) + 0 on 90;
+file . "Sumador8Bits_tb.vhd" "33a09ec98ab686a9017a90e278ede4bd55499996" "20230618202341.936":
+  entity sumador8bits_tb at 1( 0) + 0 on 45;
+  architecture arch of sumador8bits_tb at 7( 105) + 0 on 46;
+file . "CinPrima_tb.vhd" "0201de3cc1fc5a5d8c20120b8cae9f27dd838706" "20230618185858.461":
+  entity cinprima_tb at 1( 0) + 0 on 41;
+  architecture arch of cinprima_tb at 7( 97) + 0 on 42;
+file . "BPrima_tb.vhd" "d6b402f490010efe0178e9d52621a6c77eb6eb48" "20230618180622.433":
+  entity bprima_tb at 1( 0) + 0 on 37;
+  architecture arch of bprima_tb at 7( 93) + 0 on 38;
+file . "APrima.vhd" "3de61f80708192c74c37044e255e7dbc73e111ce" "20230617203814.974":
+  entity aprima at 1( 0) + 0 on 25;
+  architecture a_aprima of aprima at 12( 229) + 0 on 26;
+file . "SumadorRestador_tb.vhd" "d8cb1fdf815333b9eecb08b37bce0f0edbb77b83" "20230615020614.952":
+  entity sumadorrestador_tb at 1( 0) + 0 on 17;
+  architecture tb_arch of sumadorrestador_tb at 7( 111) + 0 on 18;
+file . "CinPrima.vhd" "bc3dea04a221db3635ab30d80582c2865cd0a6f0" "20230618185745.480":
+  entity cinprima at 1( 0) + 0 on 39;
+  architecture a_cinprima of cinprima at 12( 196) + 0 on 40;
+file . "BPrima.vhd" "9d02556738db1fbe448a886bc601baf9dec7e5a7" "20230618180619.625":
+  entity bprima at 1( 0) + 0 on 35;
+  architecture a_bprima of bprima at 12( 227) + 0 on 36;
+file . "SumadorRestador.vhd" "ebdca20e049f2e87fb7627ef70759d170c0b2d89" "20230615020114.850":
+  entity sumadorrestador at 1( 0) + 0 on 15;
+  architecture a_sumadorrestador of sumadorrestador at 14( 298) + 0 on 16;
+file . "FA.vhd" "96e5ea1c18d62561e365d1d6b33fc3ae8547de45" "20230617195026.502":
+  entity fa at 2( 14) + 0 on 21;
+  architecture ar_fa of fa at 12( 248) + 1 on 22;
+file . "FA_tb.vhd" "0b5042763b27d3221e750f8b75372b1ff27c84dc" "20230617195029.415":
+  entity fa_tb at 2( 25) + 0 on 23;
+  architecture ar_fa of fa_tb at 8( 106) + 1 on 24;
+file . "APrima_tb.vhd" "8d896d1b218b36ff0795593da0aba36b1aff3b5f" "20230617204355.294":
+  entity aprima_tb at 1( 0) + 0 on 29;
+  architecture arch of aprima_tb at 7( 93) + 0 on 30;
+file . "Sumador8Bits.vhd" "f24d236428c5ca5f9c16f93823fef428deebbdcf" "20230618202337.429":
+  entity sumador8bits at 4( 96) + 0 on 43;
+  architecture ar_sumador8bits of sumador8bits at 18( 489) + 1 on 44;
+file . "Unidad_Aritmetica.vhd" "539a438983cd4e1bcc21b581c1c3f08228fb9f5d" "20230619002625.892":
+  entity unidad_aritmetica at 1( 0) + 0 on 87;
+  architecture arch of unidad_aritmetica at 14( 282) + 0 on 88;
+file . "SumadorRestador8Bits.vhd" "655369d516a82ac0350cad9335b2353e1afc2abd" "20230618223813.494":
+  entity sumadorrestador8bits at 1( 0) + 0 on 75;
+  architecture ar_sumadorrestador8bits of sumadorrestador8bits at 15( 331) + 1 on 76;

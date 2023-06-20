@@ -26,15 +26,16 @@ architecture arch of Unidad_Aritmetica is
 	signal cin: std_logic;
 
 	begin
+
 	-- Ap = AS2’S1’ + AS0’ + S2S1’S0
 	Ap(0) <= (A(0) and not(S(2)) and not(S(1))) or (A(0) and not(S(0))) or (S(2) and not(S(1)) and S(0));
-  Ap(1) <= (A(1) and not(S(2)) and not(S(1))) or (A(1) and not(S(0))) or (S(2) and not(S(1)) and S(0));
-  Ap(2) <= (A(2) and not(S(2)) and not(S(1))) or (A(2) and not(S(0))) or (S(2) and not(S(1)) and S(0));
-  Ap(3) <= (A(3) and not(S(2)) and not(S(1))) or (A(3) and not(S(0))) or (S(2) and not(S(1)) and S(0));
-  Ap(4) <= (A(4) and not(S(2)) and not(S(1))) or (A(4) and not(S(0))) or (S(2) and not(S(1)) and S(0));
-  Ap(5) <= (A(5) and not(S(2)) and not(S(1))) or (A(5) and not(S(0))) or (S(2) and not(S(1)) and S(0));
-  Ap(6) <= (A(6) and not(S(2)) and not(S(1))) or (A(6) and not(S(0))) or (S(2) and not(S(1)) and S(0));
-  Ap(7) <= (A(7) and not(S(2)) and not(S(1))) or (A(7) and not(S(0))) or (S(2) and not(S(1)) and S(0));
+    Ap(1) <= (A(1) and not(S(2)) and not(S(1))) or (A(1) and not(S(0))) or (S(2) and not(S(1)) and S(0));
+    Ap(2) <= (A(2) and not(S(2)) and not(S(1))) or (A(2) and not(S(0))) or (S(2) and not(S(1)) and S(0));
+    Ap(3) <= (A(3) and not(S(2)) and not(S(1))) or (A(3) and not(S(0))) or (S(2) and not(S(1)) and S(0));
+    Ap(4) <= (A(4) and not(S(2)) and not(S(1))) or (A(4) and not(S(0))) or (S(2) and not(S(1)) and S(0));
+    Ap(5) <= (A(5) and not(S(2)) and not(S(1))) or (A(5) and not(S(0))) or (S(2) and not(S(1)) and S(0));
+    Ap(6) <= (A(6) and not(S(2)) and not(S(1))) or (A(6) and not(S(0))) or (S(2) and not(S(1)) and S(0));
+    Ap(7) <= (A(7) and not(S(2)) and not(S(1))) or (A(7) and not(S(0))) or (S(2) and not(S(1)) and S(0));
 
 	-- Bp = BS2’S1’S0’ + B’S2’S1’S0 + BS1S0 + S2S1’S0’ + BS2S0
 	Bp(0) <= ((B(0) and not(S(2)) and not(S(1)) and not(S(0))) or (not(B(0)) and not(S(2)) and not(S(1)) and S(0)) or (B(0) and S(1) and S(0)) or (S(2) and not(S(1)) and not(S(0))) or (B(0) and S(2) and S(0)));
@@ -52,3 +53,4 @@ architecture arch of Unidad_Aritmetica is
 	Sum1: Sumador8Bits port map (Ap, Bp, cin, R, cout, v);
 
 end arch;
+
