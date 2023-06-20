@@ -1,5 +1,5 @@
 $date
-  Tue Jun 20 13:04:51 2023
+  Tue Jun 20 13:12:08 2023
 $end
 $version
   GHDL v0
@@ -7,6 +7,11 @@ $end
 $timescale
   1 fs
 $end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module unidadlogica_tb $end
 $var reg 8 ! a[7:0] $end
 $var reg 8 " b[7:0] $end
 $var reg 3 # s[2:0] $end
@@ -120,6 +125,7 @@ $var reg 1 !" a7 $end
 $var reg 1 "" a8 $end
 $var reg 3 #" s[2:0] $end
 $var reg 1 $" r $end
+$upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end

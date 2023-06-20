@@ -28,7 +28,7 @@ if os.name == "posix" or os.name == "mac":
         elif opcion == '4':
             os.system(f"{RUTA_MAC} -e {archivo}_tb")
         elif opcion == '5':
-            os.system(f"{RUTA_MAC} -r {archivo}_tb --vcd={archivo}.vcd")
+            os.system(f"{RUTA_MAC} -r {archivo}_tb --vcd={archivo}.vcd --stop-time=1000ns")
         elif opcion == '6':
             os.system(f"open {archivo}.vcd")
         elif opcion == '7':

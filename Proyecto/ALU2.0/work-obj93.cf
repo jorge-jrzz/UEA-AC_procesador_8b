@@ -1,37 +1,37 @@
-v 3
-file . "ALU_tb.vhd" "20230620165004.000" "20230620130507.749":
-  entity alu_tb at 1( 0) + 0 on 33;
-  architecture arch of alu_tb at 7( 81) + 0 on 34;
-file . "UnidadLogica_tb.vhd" "20230620040208.000" "20230620130448.915":
-  entity unidadlogica_tb at 1( 0) + 0 on 29;
-  architecture arch of unidadlogica_tb at 7( 105) + 0 on 30;
-file . "Unidad_Aritmetica_tb.vhd" "20230620032052.000" "20230620130437.449":
-  entity unidad_aritmetica_tb at 1( 0) + 0 on 25;
-  architecture arch of unidad_aritmetica_tb at 7( 115) + 0 on 26;
-file . "Sumador8Bits_tb.vhd" "20230620032052.000" "20230620130417.359":
-  entity sumador8bits_tb at 1( 0) + 0 on 21;
-  architecture arch of sumador8bits_tb at 7( 105) + 0 on 22;
-file . "Mux8a1A.vhd" "20230620034150.000" "20230620130400.595":
-  entity mux8a1a at 1( 0) + 0 on 17;
-  architecture ar_mux8a1 of mux8a1a at 12( 227) + 0 on 18;
-file . "FA_tb.vhd" "20230620032052.000" "20230620130315.333":
-  entity fa_tb at 2( 25) + 0 on 13;
-  architecture ar_fa of fa_tb at 8( 106) + 1 on 14;
-file . "FA.vhd" "20230620032052.000" "20230620130314.706":
-  entity fa at 1( 0) + 0 on 11;
-  architecture archfa of fa at 10( 148) + 1 on 12;
-file . "Mux2a1.vhd" "20230620163546.000" "20230620130346.853":
+v 4
+file . "ALU.vhd" "0bc6da5533a6d758e13c0bcd9278b15e794c24b7" "20230620193838.068":
+  entity alu at 1( 0) + 0 on 57;
+  architecture arch of alu at 15( 329) + 0 on 58;
+file . "UnidadLogica.vhd" "41c6c9b41703249c5a5b96bd154dbcc067c245a6" "20230620191206.779":
+  entity unidadlogica at 1( 0) + 0 on 27;
+  architecture ar_unidadlogica of unidadlogica at 12( 269) + 0 on 28;
+file . "Unidad_Aritmetica.vhd" "460c1f276da177134e8f9885d0fcd22d9c5ca0db" "20230620191155.427":
+  entity unidad_aritmetica at 1( 0) + 0 on 23;
+  architecture arch of unidad_aritmetica at 14( 269) + 0 on 24;
+file . "Sumador8Bits.vhd" "14c533644f8848fb4f2d2fd6c6396912a7f94390" "20230620191132.468":
+  entity sumador8bits at 2( 1) + 0 on 19;
+  architecture archsumador of sumador8bits at 14( 274) + 1 on 20;
+file . "Mux2a1.vhd" "440fcd08d505ef1de323c6f57af53a98f492c948" "20230620191051.152":
   entity mux2a1 at 2( 20) + 0 on 15;
   architecture ar_mux2a1 of mux2a1 at 15( 265) + 0 on 16;
-file . "Sumador8Bits.vhd" "20230620032052.000" "20230620130416.793":
-  entity sumador8bits at 2( 2) + 0 on 19;
-  architecture archsumador of sumador8bits at 14( 287) + 1 on 20;
-file . "Unidad_Aritmetica.vhd" "20230620032052.000" "20230620130436.867":
-  entity unidad_aritmetica at 1( 0) + 0 on 23;
-  architecture arch of unidad_aritmetica at 14( 282) + 0 on 24;
-file . "UnidadLogica.vhd" "20230620035804.000" "20230620130448.327":
-  entity unidadlogica at 1( 0) + 0 on 27;
-  architecture ar_unidadlogica of unidadlogica at 12( 280) + 0 on 28;
-file . "ALU.vhd" "20230620175606.000" "20230620130507.161":
-  entity alu at 1( 0) + 0 on 31;
-  architecture arch of alu at 15( 343) + 0 on 32;
+file . "FA.vhd" "eba83990fdcc70d863b21fc783a7ca9b8ecc7acc" "20230620191019.573":
+  entity fa at 1( 0) + 0 on 11;
+  architecture archfa of fa at 10( 139) + 1 on 12;
+file . "FA_tb.vhd" "d4d63b18ca316d291cb0a8636909ce64b2dc98ff" "20230620191022.919":
+  entity fa_tb at 2( 24) + 0 on 13;
+  architecture ar_fa of fa_tb at 8( 99) + 1 on 14;
+file . "Mux8a1A.vhd" "5251e93ae269d4ceb36b03e85a625e25d781c707" "20230620191112.417":
+  entity mux8a1a at 1( 0) + 0 on 17;
+  architecture ar_mux8a1 of mux8a1a at 12( 216) + 0 on 18;
+file . "Sumador8Bits_tb.vhd" "8bb1427bcf4de5c0a0d5a47069f4ec760a74fd3f" "20230620191132.978":
+  entity sumador8bits_tb at 1( 0) + 0 on 21;
+  architecture arch of sumador8bits_tb at 7( 99) + 0 on 22;
+file . "Unidad_Aritmetica_tb.vhd" "76f1c3f7989dc2cd168c404f2dfc797bee01296d" "20230620191156.009":
+  entity unidad_aritmetica_tb at 1( 0) + 0 on 25;
+  architecture arch of unidad_aritmetica_tb at 7( 109) + 0 on 26;
+file . "UnidadLogica_tb.vhd" "5ab479dfd7e1fbde9ded72949addcf3419f4abee" "20230620191207.328":
+  entity unidadlogica_tb at 1( 0) + 0 on 29;
+  architecture arch of unidadlogica_tb at 7( 99) + 0 on 30;
+file . "ALU_tb.vhd" "2a6b17e8ebc7e8c137f40b090941c5896a3e0a0b" "20230620193838.565":
+  entity alu_tb at 1( 0) + 0 on 59;
+  architecture arch of alu_tb at 7( 75) + 0 on 60;

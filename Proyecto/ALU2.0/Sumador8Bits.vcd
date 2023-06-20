@@ -1,5 +1,5 @@
 $date
-  Tue Jun 20 13:04:19 2023
+  Tue Jun 20 13:11:34 2023
 $end
 $version
   GHDL v0
@@ -7,6 +7,11 @@ $end
 $timescale
   1 fs
 $end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module sumador8bits_tb $end
 $var reg 8 ! a_x[7:0] $end
 $var reg 8 " b_x[7:0] $end
 $var reg 1 # cin_x $end
@@ -77,6 +82,7 @@ $var reg 1 S b $end
 $var reg 1 T cin $end
 $var reg 1 U r $end
 $var reg 1 V cout $end
+$upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
