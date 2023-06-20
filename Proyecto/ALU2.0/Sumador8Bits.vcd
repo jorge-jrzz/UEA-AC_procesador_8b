@@ -1,0 +1,323 @@
+$date
+  Tue Jun 20 13:04:19 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 8 ! a_x[7:0] $end
+$var reg 8 " b_x[7:0] $end
+$var reg 1 # cin_x $end
+$var reg 8 $ r_x[7:0] $end
+$var reg 1 % cout_x $end
+$var reg 1 & v_x $end
+$scope module test $end
+$var reg 8 ' a[7:0] $end
+$var reg 8 ( b[7:0] $end
+$var reg 1 ) cin $end
+$var reg 8 * r[7:0] $end
+$var reg 1 + cout $end
+$var reg 1 , v $end
+$var reg 7 - c[6:0] $end
+$var reg 1 . w $end
+$scope module sumador0 $end
+$var reg 1 / a $end
+$var reg 1 0 b $end
+$var reg 1 1 cin $end
+$var reg 1 2 r $end
+$var reg 1 3 cout $end
+$upscope $end
+$scope module sumador1 $end
+$var reg 1 4 a $end
+$var reg 1 5 b $end
+$var reg 1 6 cin $end
+$var reg 1 7 r $end
+$var reg 1 8 cout $end
+$upscope $end
+$scope module sumador2 $end
+$var reg 1 9 a $end
+$var reg 1 : b $end
+$var reg 1 ; cin $end
+$var reg 1 < r $end
+$var reg 1 = cout $end
+$upscope $end
+$scope module sumador3 $end
+$var reg 1 > a $end
+$var reg 1 ? b $end
+$var reg 1 @ cin $end
+$var reg 1 A r $end
+$var reg 1 B cout $end
+$upscope $end
+$scope module sumador4 $end
+$var reg 1 C a $end
+$var reg 1 D b $end
+$var reg 1 E cin $end
+$var reg 1 F r $end
+$var reg 1 G cout $end
+$upscope $end
+$scope module sumador5 $end
+$var reg 1 H a $end
+$var reg 1 I b $end
+$var reg 1 J cin $end
+$var reg 1 K r $end
+$var reg 1 L cout $end
+$upscope $end
+$scope module sumador6 $end
+$var reg 1 M a $end
+$var reg 1 N b $end
+$var reg 1 O cin $end
+$var reg 1 P r $end
+$var reg 1 Q cout $end
+$upscope $end
+$scope module sumador7 $end
+$var reg 1 R a $end
+$var reg 1 S b $end
+$var reg 1 T cin $end
+$var reg 1 U r $end
+$var reg 1 V cout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000111 !
+b10011111 "
+0#
+b10100110 $
+0%
+0&
+b00000111 '
+b10011111 (
+0)
+b10100110 *
+0+
+0,
+b0011111 -
+0.
+1/
+10
+01
+02
+13
+14
+15
+16
+17
+18
+19
+1:
+1;
+1<
+1=
+0>
+1?
+1@
+0A
+1B
+0C
+1D
+1E
+0F
+1G
+0H
+0I
+1J
+1K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+1S
+0T
+1U
+0V
+#10000000
+b11111111 !
+b00001111 "
+1#
+b00001111 $
+1%
+0&
+b11111111 '
+b00001111 (
+1)
+b00001111 *
+1+
+0,
+b1111111 -
+1.
+11
+12
+1>
+1A
+1C
+0D
+1H
+0K
+1L
+1M
+1O
+0P
+1Q
+1R
+0S
+1T
+0U
+1V
+#20000000
+b01010101 !
+b10101010 "
+0#
+b11111111 $
+0%
+0&
+b01010101 '
+b10101010 (
+0)
+b11111111 *
+0+
+0,
+b0000000 -
+0.
+00
+01
+03
+04
+06
+17
+08
+0:
+0;
+1<
+0=
+0>
+0@
+1A
+0B
+0E
+1F
+0G
+0H
+1I
+0J
+1K
+0L
+0O
+1P
+0Q
+0R
+1S
+0T
+1U
+0V
+#30000000
+b00110011 !
+b11001100 "
+1#
+b00000000 $
+1%
+0&
+b00110011 '
+b11001100 (
+1)
+b00000000 *
+1+
+0,
+b1111111 -
+1.
+11
+02
+13
+14
+05
+16
+07
+18
+09
+1:
+1;
+0<
+1=
+1@
+0A
+1B
+1E
+0F
+1G
+1H
+0I
+1J
+0K
+1L
+0M
+1N
+1O
+0P
+1Q
+1T
+0U
+1V
+#40000000
+b10010011 !
+b01001110 "
+0#
+b11100001 $
+0%
+0&
+b10010011 '
+b01001110 (
+0)
+b11100001 *
+0+
+0,
+b0011110 -
+0.
+01
+12
+03
+15
+06
+07
+0H
+1K
+0L
+0O
+1P
+0Q
+1R
+0S
+0T
+1U
+0V
+#50000000
+b01001110 !
+b10010011 "
+1#
+b11100010 $
+b01001110 '
+b10010011 (
+1)
+b11100010 *
+b0011111 -
+0/
+10
+11
+02
+13
+16
+17
+19
+0:
+1>
+0?
+0C
+1D
+1M
+0N
+0R
+1S
+#60000000

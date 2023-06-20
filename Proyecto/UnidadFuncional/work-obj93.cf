@@ -1,0 +1,10 @@
+v 3
+file . "UnidadLogica_tb.vhd" "20230620040208.000" "20230619220217.689":
+  entity unidadlogica_tb at 1( 0) + 0 on 15;
+  architecture arch of unidadlogica_tb at 7( 105) + 0 on 16;
+file . "Mux8a1A.vhd" "20230620034150.000" "20230619215833.473":
+  entity mux8a1a at 1( 0) + 0 on 11;
+  architecture ar_mux8a1 of mux8a1a at 12( 227) + 0 on 12;
+file . "UnidadLogica.vhd" "20230620035804.000" "20230619215915.270":
+  entity unidadlogica at 1( 0) + 0 on 13;
+  architecture ar_unidadlogica of unidadlogica at 12( 280) + 0 on 14;

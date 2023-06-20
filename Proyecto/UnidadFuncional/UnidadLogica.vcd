@@ -1,0 +1,272 @@
+$date
+  Mon Jun 19 22:02:30 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 8 ! a[7:0] $end
+$var reg 8 " b[7:0] $end
+$var reg 3 # s[2:0] $end
+$var reg 8 $ result[7:0] $end
+$scope module ul $end
+$var reg 8 % a[7:0] $end
+$var reg 8 & b[7:0] $end
+$var reg 3 ' s[2:0] $end
+$var reg 8 ( result[7:0] $end
+$var reg 8 ) andm[7:0] $end
+$var reg 8 * orm[7:0] $end
+$var reg 8 + nota[7:0] $end
+$var reg 8 , notb[7:0] $end
+$var reg 8 - xnorm[7:0] $end
+$var reg 8 . norm[7:0] $end
+$var reg 8 / nandm[7:0] $end
+$var reg 8 0 xorm[7:0] $end
+$var reg 8 1 r[7:0] $end
+$scope module mux1 $end
+$var reg 1 2 a1 $end
+$var reg 1 3 a2 $end
+$var reg 1 4 a3 $end
+$var reg 1 5 a4 $end
+$var reg 1 6 a5 $end
+$var reg 1 7 a6 $end
+$var reg 1 8 a7 $end
+$var reg 1 9 a8 $end
+$var reg 3 : s[2:0] $end
+$var reg 1 ; r $end
+$upscope $end
+$scope module mux2 $end
+$var reg 1 < a1 $end
+$var reg 1 = a2 $end
+$var reg 1 > a3 $end
+$var reg 1 ? a4 $end
+$var reg 1 @ a5 $end
+$var reg 1 A a6 $end
+$var reg 1 B a7 $end
+$var reg 1 C a8 $end
+$var reg 3 D s[2:0] $end
+$var reg 1 E r $end
+$upscope $end
+$scope module mux3 $end
+$var reg 1 F a1 $end
+$var reg 1 G a2 $end
+$var reg 1 H a3 $end
+$var reg 1 I a4 $end
+$var reg 1 J a5 $end
+$var reg 1 K a6 $end
+$var reg 1 L a7 $end
+$var reg 1 M a8 $end
+$var reg 3 N s[2:0] $end
+$var reg 1 O r $end
+$upscope $end
+$scope module mux4 $end
+$var reg 1 P a1 $end
+$var reg 1 Q a2 $end
+$var reg 1 R a3 $end
+$var reg 1 S a4 $end
+$var reg 1 T a5 $end
+$var reg 1 U a6 $end
+$var reg 1 V a7 $end
+$var reg 1 W a8 $end
+$var reg 3 X s[2:0] $end
+$var reg 1 Y r $end
+$upscope $end
+$scope module mux5 $end
+$var reg 1 Z a1 $end
+$var reg 1 [ a2 $end
+$var reg 1 \ a3 $end
+$var reg 1 ] a4 $end
+$var reg 1 ^ a5 $end
+$var reg 1 _ a6 $end
+$var reg 1 ` a7 $end
+$var reg 1 a a8 $end
+$var reg 3 b s[2:0] $end
+$var reg 1 c r $end
+$upscope $end
+$scope module mux6 $end
+$var reg 1 d a1 $end
+$var reg 1 e a2 $end
+$var reg 1 f a3 $end
+$var reg 1 g a4 $end
+$var reg 1 h a5 $end
+$var reg 1 i a6 $end
+$var reg 1 j a7 $end
+$var reg 1 k a8 $end
+$var reg 3 l s[2:0] $end
+$var reg 1 m r $end
+$upscope $end
+$scope module mux7 $end
+$var reg 1 n a1 $end
+$var reg 1 o a2 $end
+$var reg 1 p a3 $end
+$var reg 1 q a4 $end
+$var reg 1 r a5 $end
+$var reg 1 s a6 $end
+$var reg 1 t a7 $end
+$var reg 1 u a8 $end
+$var reg 3 v s[2:0] $end
+$var reg 1 w r $end
+$upscope $end
+$scope module mux8 $end
+$var reg 1 x a1 $end
+$var reg 1 y a2 $end
+$var reg 1 z a3 $end
+$var reg 1 { a4 $end
+$var reg 1 | a5 $end
+$var reg 1 } a6 $end
+$var reg 1 !" a7 $end
+$var reg 1 "" a8 $end
+$var reg 3 #" s[2:0] $end
+$var reg 1 $" r $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b10101001 !
+b10101111 "
+b000 #
+b10101001 $
+b10101001 %
+b10101111 &
+b000 '
+b10101001 (
+b10101001 )
+b10101111 *
+b01010110 +
+b01010000 ,
+b11111001 -
+b01010000 .
+b01010110 /
+b00000110 0
+bUUUUUUUU 1
+12
+13
+04
+05
+06
+07
+08
+19
+b000 :
+1;
+0<
+1=
+1>
+0?
+1@
+0A
+1B
+0C
+b000 D
+0E
+0F
+1G
+1H
+0I
+1J
+0K
+1L
+0M
+b000 N
+0O
+1P
+1Q
+0R
+0S
+0T
+0U
+0V
+1W
+b000 X
+1Y
+0Z
+0[
+1\
+1]
+0^
+1_
+1`
+1a
+b000 b
+0c
+1d
+1e
+0f
+0g
+0h
+0i
+0j
+1k
+b000 l
+1m
+0n
+0o
+1p
+1q
+0r
+1s
+1t
+1u
+b000 v
+0w
+1x
+1y
+0z
+0{
+0|
+0}
+0!"
+1""
+b000 #"
+1$"
+#5000000
+b001 #
+b10101111 $
+b001 '
+b10101111 (
+b001 :
+b001 D
+1E
+b001 N
+1O
+b001 X
+b001 b
+b001 l
+b001 v
+b001 #"
+#10000000
+b010 #
+b01010110 $
+b010 '
+b01010110 (
+b010 :
+0;
+b010 D
+b010 N
+b010 X
+0Y
+b010 b
+1c
+b010 l
+0m
+b010 v
+1w
+b010 #"
+0$"
+#15000000
+b011 #
+b01010000 $
+b011 '
+b01010000 (
+b011 :
+b011 D
+0E
+b011 N
+0O
+b011 X
+b011 b
+b011 l
+b011 v
+b011 #"
