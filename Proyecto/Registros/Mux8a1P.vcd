@@ -1,0 +1,60 @@
+$date
+  Mon Jun 19 19:12:37 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module mux8a1_tb $end
+$var reg 3 ! s[2:0] $end
+$var reg 8 " d0[7:0] $end
+$var reg 8 # d1[7:0] $end
+$var reg 8 $ d2[7:0] $end
+$var reg 8 % d3[7:0] $end
+$var reg 8 & d4[7:0] $end
+$var reg 8 ' d5[7:0] $end
+$var reg 8 ( d6[7:0] $end
+$var reg 8 ) d7[7:0] $end
+$var reg 8 * r[7:0] $end
+$scope module r1 $end
+$var reg 3 + s[2:0] $end
+$var reg 8 , d0[7:0] $end
+$var reg 8 - d1[7:0] $end
+$var reg 8 . d2[7:0] $end
+$var reg 8 / d3[7:0] $end
+$var reg 8 0 d4[7:0] $end
+$var reg 8 1 d5[7:0] $end
+$var reg 8 2 d6[7:0] $end
+$var reg 8 3 d7[7:0] $end
+$var reg 8 4 y[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b001 !
+b11111111 "
+b00000000 #
+b11110000 $
+b11100000 %
+b11100001 &
+b10000000 '
+b11111100 (
+b00000000 )
+b00000000 *
+b001 +
+b11111111 ,
+b00000000 -
+b11110000 .
+b11100000 /
+b11100001 0
+b10000000 1
+b11111100 2
+b00000000 3
+b00000000 4
+#5000000

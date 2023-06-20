@@ -1,0 +1,34 @@
+$date
+  Mon Jun 19 18:30:32 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module deco3a8_tb $end
+$var reg 1 ! w $end
+$var reg 3 " a[2:0] $end
+$var reg 8 # r[7:0] $end
+$scope module r1 $end
+$var reg 1 $ w $end
+$var reg 3 % d[2:0] $end
+$var reg 8 & y[7:0] $end
+$var reg 8 ' aux[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+b001 "
+b00000010 #
+1$
+b001 %
+b00000010 &
+b00000010 '
+#5000000

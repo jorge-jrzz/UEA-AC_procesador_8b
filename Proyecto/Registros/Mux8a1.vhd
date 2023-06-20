@@ -11,28 +11,14 @@ entity Mux8a1 is
   
   architecture Funcion of Mux8a1 is
   begin
-    process(S,d0,d1,d2,d3,d4,d5,d6,d7)
-    begin
-      case S is
-        when "000" =>
-          Y <= d0;
-        when "001" =>
-          Y <= d1;
-        when "010" =>
-          Y <= d2;
-        when "011" =>
-          Y <= d3;
-        when "100" =>
-          Y <= d4;
-        when "101" =>
-          Y <= d5;
-        when "110" =>
-          Y <= d6;
-        when "111" =>
-          Y <= d7;
-        when others =>
-          Y<="00000000";
-      end case;
-    end process;
+    with S select
+    Y<= d0 when "000",
+        d1 when "001",
+        d2 when "010",
+        d3 when "011",
+        d4 when "100",
+        d5 when "101",
+        d6 when "110",
+        d7 when others;
   end architecture Funcion;
   

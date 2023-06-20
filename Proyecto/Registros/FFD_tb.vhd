@@ -4,28 +4,29 @@ use IEEE.std_logic_1164.all;
 entity FFD_tb is
 end FFD_tb;
 
-
 architecture Ar_FFD of FFD_tb is
-    component Registro8b
-    port(A :in std_logic_vector (7 downto 0);
-    W,CLK,C :in std_logic;
-    R:out std_logic_vector(7 downto 0)
-    );
+    component FFD
+    port (D, W, clk: in std_logic; 
+    Q: out  std_logic);
     end component;
-    signal a: std_logic_vector(7 downto 0);
+
+    signal a: std_logic;
     signal w: std_logic;
     signal clk: std_logic;
-    signal c:std_logic;
-    signal r:std_logic_vector(7 downto 0);
-begin 
-     R1:Registro8b port map(A=>a,W=>w,CLK=>clk,C=>c,R=>r);
+    signal r:std_logic;
+
+   begin 
+     R1:FFD port map(a,w,clk,r);
     process
     begin
-        a<="10101010";
+        a<='1';
         w<='1';
-        clk='1';
-        c<='0';
+        clk<='0' after 1 ns, '1' after 3 ns;
       wait for 5 ns;
+        a<='0';
+        w<='1';
+        clk<='0' after 1 ns, '1' after 3 ns;
+        wait for 5 ns;
       wait;
       end process;
 end Ar_FFD;

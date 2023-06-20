@@ -5,7 +5,7 @@ entity Mux8a1A is
     port(
         a1,a2,a3,a4,a5,a6,a7,a8: in std_logic;
         s: in std_logic_vector(2 downto 0);
-        R: out std_logic;
+        R: out std_logic
     );
 end entity Mux8a1A;
 
